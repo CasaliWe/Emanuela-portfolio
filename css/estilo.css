@@ -365,15 +365,6 @@ body, html {
 
 
 /*------------------- Inicio sessão 5 -----------------------*/
-#parte-branca1 {
-	height: 430px;
-	background-color: white;
-	border: 1px solid red;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 
 #box-left {
       margin: 20px;
@@ -444,6 +435,11 @@ body, html {
 @keyframes falecmg {
 	from {transform: scale(1.0);}
 	to {transform: scale(1.1); }
+}
+
+#parte-branca1 {
+	height: 330px;
+	background-color: white;
 }
 
 /*------------------- Fim sessão 5 -----------------------*/
