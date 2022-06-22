@@ -1,6 +1,6 @@
-/*celular deitado*/ @media (min-width: 576px) and (max-width: 767.98px) {
-    /*------------------------------------------------------------*/
-          
+               /*celular deitado*/ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
     
     * {
         box-sizing: border-box;
@@ -582,8 +582,4 @@
     
 
 
-
-
-
-    /*------------------------------------------------------------*/
-
+}

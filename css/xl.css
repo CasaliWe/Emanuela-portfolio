@@ -1,8 +1,5 @@
-/*pouco diminuido no pc*/ @media (min-width: 992px) and (max-width: 1199.98px) {
-    /*------------------------------------------------------------*/
-
-           
-
+              /*pouco diminuido no pc*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
 
     * {
         box-sizing: border-box;
@@ -566,10 +563,7 @@
     
 
 
-
-
-
-    /*------------------------------------------------------------*/
+}
 
 
     #nav-esconde {
