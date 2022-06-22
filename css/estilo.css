@@ -365,54 +365,46 @@ body, html {
 
 
 /*------------------- Inicio sessão 5 -----------------------*/
+#parte-branca1 {
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
 
 #box-left {
-      margin: 20px;
-	  padding: 15px;
-	  width: 400px;
+	  padding: 20px;
+	  width: 500px;
+	  align-self: center;
+}
+
+#box-left a {
+	color: #de4f12;
+	font-size: 23px;
+}
+
+#box-left h3 {
+	color: #de4f12;
+	padding-left: 10px;
 }
 
 #box-right {
 	margin: 20px;
-	padding: 15px;
-	
+	padding: 10px;
+	width: 400px;
 } 
-
-#box-left a {
-	color: #de4f12;
-	font-size: 28px;
-}
-
-#box-right img {
-        border-radius: 230px;
-		box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.842);;
-}
-
-#box-right img:hover {
-	animation: giraimg2;
-	animation-duration: 6s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
-
-@keyframes giraimg2 {
-	0% {transform: rotate(0deg);}
-	50% {transform: rotate(70deg);}
-	100% {transform: rotate(350deg);}
-}
 
 #box-right p a {
 	color: rgba(0, 0, 0, 0.658);
-	font-size: 30px;
+	font-size: 25px;
 	margin: 20px 5px;
 	text-align: center;
 }
 
 #box-right p a:hover {
 	color: #de4f12bd;
-	font-size: 30px;
-	margin: 20px 5px;
-	text-align: center;
     transition: 700ms;
 }
 
@@ -423,25 +415,100 @@ body, html {
 	  margin: 6px 2px;
 }
 
-#box-left h3 {
+#box-right-index {
+	margin: 20px;
+	padding: 10px;
+	width: 250px;
+	height: 250px;
+	background-image: url("../img/Manu.jpeg");
+	background-position-x: center;
+	background-position-y: 0px;
+	background-repeat: no-repeat;
+	background-size: 250px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.603);
+	position: relative;
+} 
+
+#box-right-index p  {
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	margin: 6px 2px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+#box-right-index p a {
 	color: #de4f12;
-	padding-left: 10px;
-	animation: falecmg;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+	font-size: 25px;
+	margin: 20px 5px;
+	text-align: center;
 }
 
-@keyframes falecmg {
-	from {transform: scale(1.0);}
-	to {transform: scale(1.1); }
+#box-right-index p a:hover {
+	color: black;
+    transition: 700ms;
 }
 
-#parte-branca1 {
-	height: 330px;
-	background-color: white;
+
+
+#form-contato {
+	padding: 5px;
+	text-align: center;
 }
 
+.input-single {
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-single label {
+    color: rgb(200, 200, 200);
+    font-size: 15px;
+    position:absolute ;
+    top: 0px;
+    left: 5px;
+    cursor: text;
+    transition: 0.8s ease-in-out;
+}
+
+.input {
+    width: 100%;
+    padding: 5px;
+    color: rgb(150, 150, 150);
+    border: 0;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    outline: 0 ;
+}
+
+
+.input:focus , .input:valid {
+    border-bottom: 2px solid #de4f12;
+}
+
+.input:focus ~ label , .input:valid ~ label {
+   transform: translateY(-18px);
+   font-size: 12px;
+   color:#de4f12 ;
+}
+
+#enviar-form {
+	background-color: #de4f12;
+	border-radius: 10px;
+	padding: 4px;
+	width: 120px;
+	border: transparent;
+	color: white;
+}
+
+#enviar-form:hover {
+	background-color: transparent;
+	border: 1px solid #de4f12;
+	color: #de4f12;
+	transform: all 500ms;
+}
 /*------------------- Fim sessão 5 -----------------------*/
 
 
